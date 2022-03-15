@@ -247,9 +247,9 @@ def atach_file(msg, filepath):
     file.add_header('Content-Disposition', 'attachment', filename=(filepath.split("\\"))[-1])  # Добавляем заголовки
 
 
-email = "artod2023@mail.ru"
-password = "WtQd5pY4iDBPcBWmtuVR"
-dest_email = "verart1@yandex.ru"
+email = ""
+password = ""
+dest_email = ""
 #send_email(dest_email, file)
 
 def walk(msg, dir):  # парсер директорий
